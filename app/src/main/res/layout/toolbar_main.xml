@@ -12,7 +12,7 @@
         android:layout_margin="8dp"
         android:orientation="horizontal">
 
-        <ImageView
+    <ImageView
             android:id="@+id/imgOpenGithub"
             android:layout_width="36dp"
             android:layout_height="36dp"

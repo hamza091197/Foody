@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity(), MainAdapter.onSelectData {
 
         progressDialog = ProgressDialog(this)
         progressDialog!!.setTitle("Please Wait")
-        progressDialog!!.setMessage("Displaying data ...")
+        progressDialog!!.setMessage("Displaying Data ...")
         progressDialog!!.setCancelable(false)
         progressDialog!!.setCanceledOnTouchOutside(false)
 

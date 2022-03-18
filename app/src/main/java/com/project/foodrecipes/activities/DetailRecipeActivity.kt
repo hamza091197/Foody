@@ -55,7 +55,7 @@ class DetailRecipeActivity : AppCompatActivity() {
 
         progressDialog = ProgressDialog(this)
         progressDialog!!.setTitle("Please Wait")
-        progressDialog!!.setMessage("Displaying data ...")
+        progressDialog!!.setMessage("Displaying Data ...")
         progressDialog!!.setCancelable(false)
         progressDialog!!.setCanceledOnTouchOutside(false)
 
@@ -149,7 +149,7 @@ class DetailRecipeActivity : AppCompatActivity() {
 
                         override fun onError(anError: ANError) {
                             progressDialog!!.dismiss()
-                            Toast.makeText(this@DetailRecipeActivity,"No internet connection!", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this@DetailRecipeActivity,"No Internet Connection!", Toast.LENGTH_SHORT).show()
                         }
                     })
         }

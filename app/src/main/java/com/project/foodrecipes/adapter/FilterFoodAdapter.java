@@ -56,7 +56,7 @@ public class FilterFoodAdapter extends RecyclerView.Adapter<FilterFoodAdapter.Vi
         holder.tvMeal.setText(data.strMeal);
         holder.cvFilterMeal.setOnClickListener(v -> onSelectData.onSelected(data));
         holder.imgFavorite.setOnClickListener(v -> {
-            Toast.makeText(mContext, "Feature under development", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "Feature Under Development", Toast.LENGTH_SHORT).show();
         });
     }
 
